@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head><!--Opening head tag -->
+  <!--Linking CSS File -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>OAPNet</title>
+
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/> -->
+</head><!--Closing head tag -->
+
+<body>
+
+  <div class="headerBar container">
+    <div class="usernameBlock container">
+      <img src="userImage.png" class="userImage" />
+      <div class="userText">Username</div>
+    </div>
+    <div class="headerBarButtons container">
+      <div class="newEmailBut button"><div class="buttonText"> New Email</div></div>
+      <div class="markAsReadBut button"><div class="buttonText"> Mark As Read</div></div>
+      <div class="replyBut button"><div class="buttonText"> Reply</div></div>
+      <div class="replyAllBut button"><div class="buttonText"> Reply All</div></div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="leftMenu">
+      <div class="inboxButton leftButton">Inbox</div>
+      <div class="draftsButton leftButton">Drafts</div>
+      <div class="trustedContactsButton leftButton">Trusted</div>
+      <div class="aboutBox">About - Our goal is to make your email experiance safer and worry free by ensuring that your inbox is free of dangerous and manipulative phishing scams.</div>
+  </div>
+
+<div class="container emailMain">
+  <div class="emailList" id="emailList" ></div>
+  <div class="emailContent">
+      <div class="mainEmail">
+          <div class="mainSender">Email Sender</div>
+          <div class="mainSubject">Email Subject</div>
+          <div class="mainSubject">Email Recipient</div>
+          <div class="mainSubject">Dear Recipient</div>
+          <br>
+          <br>
+          <br>
+          <div class="mainSubject">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit
+in vulputate velit esse molestie consequat.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit
+in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
+iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</div>
+    <br>
+    <br>
+    <div class="verified container">Verified<div class="greenBlock"></div></div>
+      </div>
+  </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  for(i = 0; i < 15; i++){
+  $("#emailList").append('<div class="fakeEmail"><div class="sender">Email Sender</div><div class="subject">Email Subject</div><div class="verified container">Verified<div class="greenBlock"></div></div></div>');
+  console.log("test");
+}
+});
+
+</script>
+
+
+</body>

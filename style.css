@@ -1,0 +1,157 @@
+
+
+.userImage{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+.userText{
+  font-size: 30px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 10px;
+}
+
+.usernameBlock{
+  width: 30%;
+}
+
+.headerBar{
+  padding: 8px;
+  background-color: #4A9BBA;
+  margin-bottom: 20px;
+}
+
+.headerBarButtons{
+  width: 70%;
+  font-size: 22px;
+  color: white;
+}
+
+.button{
+  /* padding: 15px;
+  padding-top: 35px; */
+  margin-left: 5%;
+  margin-top: 69px;
+  width: 20%;
+	height: 35px;
+	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+	background: #4C4C4C;
+}
+
+.button:hover{
+  background-color: #898585;
+}
+
+.buttonText{
+  -webkit-transform: skew(20deg);
+     -moz-transform: skew(20deg);
+       -o-transform: skew(20deg);
+       padding-left: 12px;
+       padding-top: 10px;
+}
+
+.leftMenu{
+  width: 30%;
+  border-width: 8px;
+  border-color: #284948;
+  border-style: solid;
+  background-color: #4A9BBA;
+  max-height: 700px;
+}
+
+.greenBlock{
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 2.5px;
+}
+
+.sender{
+  font-size: 20px;
+}
+.subject{
+  font-size: 15px;
+}
+.fakeEmail{
+  color: white;
+  background-color: #4A9BBA;
+  padding: 10px;
+  padding-right: 20px;
+  margin-top: 5px;
+}
+
+.fakeEmail:hover{
+  background-color: #6ac1e2;
+}
+
+
+
+.emailList{
+  max-height: inherit;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #527B7C;
+  width: 300px;
+}
+
+.emailMain{
+  margin-left: 3%;
+  width: 70%;
+  border-width: 8px;
+  border-color: #284948;
+  border-style: solid;
+  max-height: 700px;
+}
+
+.emailContent{
+  width: 80%;
+}
+
+.mainSender{
+  font-size: 30px;
+}
+
+.mainEmail{
+  padding: 20px;
+}
+
+.verified{
+  margin-right: 10px;
+}
+
+.leftButton{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  background-color: #527B7C;
+  font-size: 30px;
+  color: white;
+}
+
+.leftButton:hover{
+  background-color: #74a4a5;
+}
+
+.aboutBox{
+  background-color: #527B7C;
+  font-size: 20px;
+  color: white;
+  bottom: 0px;
+}
